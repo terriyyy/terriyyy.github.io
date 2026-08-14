@@ -17,6 +17,19 @@ body {
   font-family: "DM Sans", "Helvetica Neue", sans-serif;
 }
 
+#main,
+.sidebar,
+.profile_box,
+.page,
+.page__inner-wrap,
+.page__content,
+.portfolio-section,
+.work-card,
+.work-card__visual,
+.work-card__content {
+  min-width: 0;
+}
+
 .masthead {
   border-bottom: 1px solid rgba(23, 35, 33, 0.1);
   background: rgba(251, 250, 246, 0.93);
@@ -134,6 +147,7 @@ body {
 .work-card {
   display: grid;
   grid-template-columns: minmax(15rem, 0.82fr) minmax(0, 1.18fr);
+  align-items: start;
   gap: clamp(1.5rem, 3.4vw, 3.2rem);
   padding: 2rem 0;
   border-bottom: 1px solid var(--home-line);
@@ -280,9 +294,44 @@ body {
 }
 
 @media (max-width: 760px) {
+  html,
+  body {
+    overflow-x: clip;
+  }
+
+  .profile_box {
+    width: 100%;
+  }
+
+  .author__content {
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+
+  .author__urls-wrapper {
+    flex: 0 0 auto;
+  }
+
+  .author__urls_sm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    padding: 0;
+    font-size: 1.2em;
+  }
+
+  .author__urls_sm a {
+    display: inline-flex;
+  }
+
   .home-intro {
     margin-bottom: 4rem;
     padding-top: 0.5rem;
+  }
+
+  .home-intro h1 {
+    font-size: clamp(2.2rem, 9.4vw, 3rem);
+    overflow-wrap: anywhere;
   }
 
   .work-card {
@@ -297,6 +346,10 @@ body {
 
   .work-card__visual img {
     max-height: none;
+  }
+
+  .work-card__content h3 {
+    overflow-wrap: anywhere;
   }
 
   .home-footer {
