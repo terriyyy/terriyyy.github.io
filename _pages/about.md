@@ -88,8 +88,9 @@ Chenyu Zhao, Shenglin Zhang<sup>*</sup>, **Yihang Lin**, Wenwei Gu, Zhimin Chen,
 
 [[**Code**]](https://github.com/AIOps-Lab-NKU/BuildBench-Agent-Baseline) [[**Paper**]](https://arxiv.org/abs/2511.00780)
 
-- Contribute to competition preparation and platform development for autonomous repair of real package-build failures.
-- Support cross-architecture evaluation in x86_64, Arm64, and RISC-V environments, where repairs are verified through clean target-architecture builds.
+- Contribute to challenge preparation and platform development for LLM agents that diagnose and repair real package-build failures arising during cross-architecture migration.
+- Help implement a tool-augmented repair workflow that spans package inspection, failure localization, source and configuration editing, build submission, and iterative diagnosis from updated build logs.
+- Support a reproducible evaluation protocol across x86_64, Arm64, and RISC-V environments, where a repair is accepted only after a clean executable build on the target architecture.
 
 </div>
 </div>
@@ -110,8 +111,9 @@ Chenyu Zhao, Shenglin Zhang<sup>*</sup>, **Yihang Lin**, Wenwei Gu, Zhimin Chen,
 [[**Code**]](https://github.com/Nk-Five-Musketeers/aigc_five_men_team)
 
 - Conducted field interviews with older adults to identify user needs and guide feature and interaction design.
-- Helped organize conversations, photographs, relationships, and life events into a structured personal memory for personalized recall and story generation.
-- Explored offline and on-device capabilities to improve accessibility and protect sensitive personal data in care settings.
+- Designed a memory-centered AI companion that combines personalized retrieval, multimodal life-story organization, and conversational interaction to support everyday reminiscence and companionship.
+- Developed a privacy-aware memory system that organizes conversations, photographs, relationships, and life events into a structured long-term memory base for personalized recall and story generation.
+- Combined local data persistence with speech-enabled DeepSeek dialogue, while exploring offline and on-device capabilities to improve accessibility and protect sensitive personal data in care settings.
 
 </div>
 </div>
@@ -131,8 +133,9 @@ Chenyu Zhao, Shenglin Zhang<sup>*</sup>, **Yihang Lin**, Wenwei Gu, Zhimin Chen,
 
 [[**Code**]](https://github.com/terriyyy/Knowledge-Graph-enhanced-RAG-System)
 
-- Developed a Vue 3 and Element Plus interface for interactive question answering, graph exploration, and recommendation.
-- Connected the interface to a Python backend that analyzes entity relationships and ranks related concepts by graph weights for structure-aware retrieval.
+- Built a knowledge graph-augmented question answering pipeline that models frontend technology concepts as a weighted directed graph and retrieves entity-centric relational context to ground LLM-generated responses.
+- Designed a graph-based retrieval and recommendation mechanism that traverses incoming and outgoing relations around matched entities, constructs structured knowledge triples for generation, and ranks related concepts by edge weights for relevance-aware recommendation.
+- Integrated graph retrieval with DeepSeek-based generation to support knowledge-grounded QA and graph-aware learning path planning, where neighboring concepts are used to generate structured prerequisite, core, and next-step learning recommendations.
 
 </div>
 </div>
