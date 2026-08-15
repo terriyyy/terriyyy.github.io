@@ -1,122 +1,152 @@
 ---
 permalink: /
 title: ""
-excerpt: "Yihang Lin — Undergraduate researcher in AI for Software Engineering at Nankai University."
+excerpt: "Yihang Lin — Undergraduate student at Nankai University working on AI for Software Engineering."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<span class="anchor" id="about-me"></span>
+<span class='anchor' id='about-me'></span>
 
-<header class="home-intro">
-  <p class="home-intro__eyebrow">AI for Software Engineering</p>
-  <h1>Building dependable AI agents for real software systems.</h1>
-  <p>I am an undergraduate student at <strong>Nankai University</strong>, interested in developing AI methods that make software engineering more reliable and autonomous.</p>
-  <p>My research focuses on <strong>large language model (LLM) agents</strong>, <strong>automated software repair</strong>, and <strong>intelligent systems for software building and evaluation</strong>.</p>
-</header>
+I am an undergraduate student at **Nankai University**. My research focuses on building reliable and autonomous AI systems for software engineering.
 
-<section class="portfolio-section" aria-labelledby="publications-heading">
-  <span class="anchor" id="publications"></span>
-  <div class="section-heading">
-    <div>
-      <p class="section-heading__eyebrow">Research</p>
-      <h2 id="publications-heading">Selected Publication</h2>
-    </div>
-    <span class="section-heading__count">01</span>
-  </div>
+I am particularly interested in **AI for Software Engineering**, including **LLM-based agents**, **automated software repair**, and **software build and evaluation**.
 
-  <article class="work-card work-card--publication">
-    <div class="work-card__visual">
-      <img src="/images/publications/probe-ase26.jpg" alt="PROBE architecture: telemetry, diagnosis, and guidance layers form a recovery loop for failed agent runs" loading="lazy">
-      <span class="work-card__venue">ASE 2026 · CCF A</span>
-    </div>
-    <div class="work-card__content">
-      <p class="work-card__type">Core Contributor</p>
-      <h3>Debugging the Debuggers: Failure-Anchored Structured Recovery for Software Engineering Agents</h3>
-      <p class="work-card__authors">Chenyu Zhao, Shenglin Zhang<sup>*</sup>, <strong>Yihang Lin</strong>, Wenwei Gu, Zhimin Chen, Yongqian Sun, Dan Pei, Chetan Bansal, Saravan Rajmohan, Minghua Ma</p>
-      <p class="work-card__summary">PROBE turns failed agent runs into recoverable evidence: it fuses telemetry to localize and diagnose failures, then injects grounded, actionable guidance through a gated recovery loop. Across 257 initially unresolved cases in three software-engineering settings, it improves both diagnosis and recovery over baseline approaches.</p>
-      <div class="work-card__links">
-        <a href="https://arxiv.org/abs/2605.08717" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
-      </div>
-    </div>
-  </article>
-</section>
+<span class='anchor' id='news'></span>
 
-<section class="portfolio-section" aria-labelledby="projects-heading">
-  <span class="anchor" id="projects"></span>
-  <div class="section-heading">
-    <div>
-      <p class="section-heading__eyebrow">Selected Work</p>
-      <h2 id="projects-heading">Projects</h2>
-    </div>
-    <span class="section-heading__count">04</span>
-  </div>
+# 🔥 News
 
-  <div class="project-list">
-    <article class="work-card">
-      <div class="work-card__visual">
-        <img src="/images/projects/agentops-rca.png" alt="Workflow for reflection-guided root-cause analysis of agent failures" loading="lazy">
-        <span class="work-card__venue">Innovation Program</span>
-      </div>
-      <div class="work-card__content">
-        <p class="work-card__type">Core Leader</p>
-        <h3>Multimodal Monitoring and Automated RCA for AgentOps</h3>
-        <p class="work-card__note">National Undergraduate Innovation Training Program · Selected as a municipal-level project</p>
-        <p class="work-card__summary">This project develops a low-intrusion observability and diagnosis pipeline for LLM agents. It structures execution traces into aligned timelines, uses reflection-guided root-cause analysis to identify instruction drift, hallucinations, and tool-use failures, and closes the loop by translating verified diagnoses into prompt- and tool-level repair guidance.</p>
-      </div>
-    </article>
+- **[Jul. 2026]** Joined the preparation and platform development of the ICSE 2027 Build-Bench Challenge.
+- **[May. 2026]** Our paper, *Debugging the Debuggers: Failure-Anchored Structured Recovery for Software Engineering Agents*, became available on arXiv.
+- **[Apr. 2026]** Began leading a student innovation project on multimodal AgentOps monitoring and automated root-cause analysis.
 
-    <article class="work-card">
-      <div class="work-card__visual">
-        <img src="/images/projects/buildbench.png" alt="Iterative package-build repair and verification workflow used by BuildBench" loading="lazy">
-        <span class="work-card__venue">ICSE 2027</span>
-      </div>
-      <div class="work-card__content">
-        <p class="work-card__type">Team Member</p>
-        <h3>ICSE 2027 Build-Bench Challenge Platform &amp; Preparation</h3>
-        <p class="work-card__summary">Contributed to the preparation and platform development of the ICSE 2027 Build-Bench Challenge, where autonomous agents repair real package failures across x86_64, Arm64, and RISC-V environments. The platform evaluates patches by rebuilding clean packages on the target architecture, making successful compilation—not patch similarity—the central signal.</p>
-        <div class="work-card__links">
-          <a href="https://github.com/AIOps-Lab-NKU/BuildBench-Agent-Baseline" target="_blank" rel="noopener">Code <span aria-hidden="true">↗</span></a>
-          <a href="https://arxiv.org/abs/2511.00780" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
-        </div>
-      </div>
-    </article>
+<span class='anchor' id='publications'></span>
 
-    <article class="work-card">
-      <div class="work-card__visual">
-        <img src="/images/projects/bluecare.png" alt="BlueCare memory-companion flow from conversation and memory anchoring to story generation" loading="lazy">
-        <span class="work-card__venue">Human-Centered AI</span>
-      </div>
-      <div class="work-card__content">
-        <p class="work-card__type">Team Member</p>
-        <h3>BlueCare: An AI Memory Companion for Older Adults</h3>
-        <p class="work-card__summary">BlueCare is an AI memory companion shaped by field interviews with older adults. It brings conversations, photographs, relationships, and life events into a structured personal memory for personalized recall and story generation, while exploring offline and on-device capabilities to improve accessibility and protect sensitive personal data.</p>
-        <div class="work-card__links">
-          <a href="https://github.com/Nk-Five-Musketeers/aigc_five_men_team" target="_blank" rel="noopener">Code <span aria-hidden="true">↗</span></a>
-        </div>
-      </div>
-    </article>
+# 📝 Publications
 
-    <article class="work-card">
-      <div class="work-card__visual">
-        <img src="/images/projects/knowledge-graph-rag.png" alt="Knowledge-graph question-answering interface with an interactive entity graph" loading="lazy">
-        <span class="work-card__venue">Knowledge Systems</span>
-      </div>
-      <div class="work-card__content">
-        <p class="work-card__type">Team Member</p>
-        <h3>Knowledge Graph-Enhanced RAG System</h3>
-        <p class="work-card__summary">A full-stack knowledge system that combines interactive question answering with graph-aware recommendation. A Vue 3 interface visualizes entity relationships, while a Python backend ranks connected entities by graph weights to surface relevant concepts and support transparent, structure-aware retrieval.</p>
-        <div class="work-card__links">
-          <a href="https://github.com/terriyyy/Knowledge-Graph-enhanced-RAG-System" target="_blank" rel="noopener">Code <span aria-hidden="true">↗</span></a>
-        </div>
-      </div>
-    </article>
-  </div>
-</section>
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">ASE 2026 · CCF A</div>
+<img src='images/publications/probe-ase26.jpg' alt="PROBE failure-anchored recovery framework" width="100%">
+</div>
+</div>
+<div class='paper-box-text' markdown="1">
 
-<footer class="home-footer">
-  <span>Yihang Lin · Nankai University</span>
-  <a href="mailto:2413578@mail.nankai.edu.cn">Let’s talk about reliable software agents <span aria-hidden="true">↗</span></a>
-</footer>
+[**Debugging the Debuggers: Failure-Anchored Structured Recovery for Software Engineering Agents**](https://arxiv.org/abs/2605.08717)
+
+<span class="paper-time-badge">ASE 2026 · CCF A</span>
+
+Chenyu Zhao, Shenglin Zhang<sup>*</sup>, **Yihang Lin**, Wenwei Gu, Zhimin Chen, Yongqian Sun, Dan Pei, Chetan Bansal, Saravan Rajmohan, Minghua Ma
+
+[[**Paper**]](https://arxiv.org/abs/2605.08717)
+
+- Introduces PROBE, a failure-anchored recovery pipeline that turns execution telemetry into localized diagnoses and grounded guidance for failed software-engineering agents.
+- Evaluates structured recovery across repository repair, enterprise workflow recovery, and AIOps mitigation.
+
+</div>
+</div>
+
+<span class='anchor' id='projects'></span>
+
+# ⚙️ Projects
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">AgentOps RCA</div>
+<img src='images/projects/agentops-rca.png' alt="AgentOps monitoring and root-cause analysis workflow" width="100%">
+</div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+**Multimodal Monitoring and Automated RCA for AgentOps**
+
+<span class="paper-role-badge">Core Leader</span> <span class="paper-time-badge">Apr. 2026 – Present</span>
+
+- Lead the design of a low-intrusion observability pipeline that organizes agent execution traces into aligned Trace–Span timelines.
+- Develop reflection-guided root-cause analysis for instruction drift, hallucinations, and tool-use failures, with verified diagnoses feeding prompt- and tool-level repair.
+- National Undergraduate Innovation Training Program project, selected as a municipal-level project.
+
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">Build-Bench</div>
+<img src='images/projects/buildbench.png' alt="Build-Bench package repair and verification workflow" width="100%">
+</div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+**ICSE 2027 Build-Bench Challenge Platform and Preparation**
+
+<span class="paper-role-badge">Team Member</span> <span class="paper-time-badge">Jul. 2026 – Present</span>
+
+[[**Code**]](https://github.com/AIOps-Lab-NKU/BuildBench-Agent-Baseline) [[**Paper**]](https://arxiv.org/abs/2511.00780)
+
+- Contribute to competition preparation and platform development for autonomous repair of real package-build failures.
+- Support cross-architecture evaluation in x86_64, Arm64, and RISC-V environments, where repairs are verified through clean target-architecture builds.
+
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">BlueCare</div>
+<img src='images/projects/bluecare.png' alt="BlueCare memory companion workflow" width="100%">
+</div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+**BlueCare: An AI Memory Companion for Older Adults**
+
+<span class="paper-role-badge">Team Member</span> <span class="paper-time-badge">Mar. 2026 – Jul. 2026</span>
+
+[[**Code**]](https://github.com/Nk-Five-Musketeers/aigc_five_men_team)
+
+- Conducted field interviews with older adults to identify user needs and guide feature and interaction design.
+- Helped organize conversations, photographs, relationships, and life events into a structured personal memory for personalized recall and story generation.
+- Explored offline and on-device capabilities to improve accessibility and protect sensitive personal data in care settings.
+
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">Knowledge Graph RAG</div>
+<img src='images/projects/knowledge-graph-rag.png' alt="Knowledge graph question answering and recommendation interface" width="100%">
+</div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+**Knowledge Graph-Enhanced RAG System**
+
+<span class="paper-role-badge">Team Member</span> <span class="paper-time-badge">Sep. 2025 – Feb. 2026</span>
+
+[[**Code**]](https://github.com/terriyyy/Knowledge-Graph-enhanced-RAG-System)
+
+- Developed a Vue 3 and Element Plus interface for interactive question answering, graph exploration, and recommendation.
+- Connected the interface to a Python backend that analyzes entity relationships and ranks related concepts by graph weights for structure-aware retrieval.
+
+</div>
+</div>
+
+<span class='anchor' id='education'></span>
+
+# 📖 Education
+
+- **Nankai University** — Undergraduate Student
+
+<span class='anchor' id='beyond-academics'></span>
+
+# 🪽 Beyond Academics
+
+Running is an important part of my life. I have represented Nankai University in several collegiate long-distance relay events, including the **2024 Chinese Universities 100-Mile Relay**, the **2025 Chinese Universities 100-Mile Relay**, and the **2025 Nanjing Universities 100-Kilometer Relay**. I enjoy the patience, rhythm, and teamwork that distance running demands.
+
+Away from research and running, I also enjoy traveling and music.

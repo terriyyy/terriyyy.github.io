@@ -39,7 +39,6 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-@import "homepage";
 
 .paper-box {
     display: flex;
@@ -66,6 +65,26 @@
     .paper-box-text{
         max-width: 100%;
         order: 1;
+    }
+
+    .paper-role-badge {
+        background-color: #d4edda;
+        color: #155724;
+        padding: 0.2em 0.6em;
+        border-radius: 4px;
+        font-size: 0.9em;
+        font-weight: normal;
+        white-space: nowrap;
+    }
+
+    .paper-time-badge {
+        background-color: #e2e3e5;
+        color: #383d41;
+        padding: 0.2em 0.6em;
+        border-radius: 4px;
+        font-size: 0.9em;
+        font-weight: normal;
+        white-space: nowrap;
     }
     
     @include breakpoint($medium) {
