@@ -20,7 +20,7 @@ I am particularly interested in **AI for Software Engineering**, including **LLM
 
 - **[Sep. 2026]** Received the Huameng Scholarship.
 - **[Jul. 2026]** Joined the preparation and platform development of the ICSE 2027 Build-Bench Challenge.
-- **[May. 2026]** Our paper, *Debugging the Debuggers: Failure-Anchored Structured Recovery for Software Engineering Agents*, became available on arXiv.
+- **[Jul. 2026]** Our paper **“Debugging the Debuggers”** was accepted to the Industry Showcase Track at ASE 2026.
 - **[Apr. 2026]** Began leading a student innovation project on multimodal AgentOps monitoring and automated root-cause analysis.
 
 <span class='anchor' id='publications'></span>
